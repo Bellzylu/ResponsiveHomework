@@ -1,0 +1,68 @@
+ 
+ 
+ body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: white;
+        }
+:root{
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --brand-color: rgb(69, 149, 207);
+  --brand-color-opactity09: rgba(83, 148, 195, 0.9);
+  
+}
+        
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .header {
+      background-color: var(--secondary-color);
+      color: #fff;
+      padding: 20px;
+      width: 100%;
+    }
+    .header h1 {
+      margin: 0;
+    }
+
+    .text-center{
+  text-align: center!important;
+ }
+
+    .main {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content:space-evenly;
+      
+    }
+
+    .btn{
+      box-shadow: var(--box-shadow);
+      font-size: 14px;
+
+    }
+
+    nav li.active a{
+      color: var(--brand-color);
+    }
+
+    .nav-item-style{
+      display: flex;
+      justify-content:space-evenly!important;
+    }
+
+      .blue-button{
+        background-color: rgb(69, 149, 207);
+        color: white;
+        border-color: white;
+    }
+
+  
