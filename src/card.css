@@ -1,0 +1,27 @@
+#card-style{
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+
+      padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+    .row-position{
+        display: flex;
+        align-items: center;
+    }
+
+    @media screen and (max-width:786px){
+
+#card-style{
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}}

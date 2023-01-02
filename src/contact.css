@@ -1,0 +1,22 @@
+  
+  :root{
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #B56BE6;
+  --secondary-color: #f5f2fe;
+  --brand-color: #B56BE6;
+  --brand-color-opactity09: rgba(83, 148, 195, 0.9);
+  
+}
+  .footer {
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+    }
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    /* text-decoration: none; */
+}

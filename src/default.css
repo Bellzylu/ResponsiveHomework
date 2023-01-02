@@ -8,14 +8,12 @@
         }
 :root{
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --primary-color: #6c63ff;
+  --primary-color:#5BAFFF;
   --secondary-color: #f5f2fe;
-  --brand-color: rgb(69, 149, 207);
-  --brand-color-opactity09: rgba(83, 148, 195, 0.9);
+  --brand-color:#5BAFFF;
+  --brand-color-opactity: #b56be6c6;
   
 }
-        
-
     .container {
       display: flex;
       flex-direction: column;
@@ -23,10 +21,8 @@
     }
     
     .header {
-      background-color: var(--secondary-color);
-      color: #fff;
-      padding: 20px;
       width: 100%;
+      border-radius: 10px;
     }
     .header h1 {
       margin: 0;
@@ -36,19 +32,6 @@
   text-align: center!important;
  }
 
-    .main {
-      width: 80%;
-      display: flex;
-      flex-wrap: wrap; 
-      justify-content:space-evenly;
-      
-    }
-
-    .btn{
-      box-shadow: var(--box-shadow);
-      font-size: 14px;
-
-    }
 
     nav li.active a{
       color: var(--brand-color);
@@ -59,10 +42,5 @@
       justify-content:space-evenly!important;
     }
 
-      .blue-button{
-        background-color: rgb(69, 149, 207);
-        color: white;
-        border-color: white;
-    }
-
+  
   
