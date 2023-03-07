@@ -21,18 +21,22 @@ crossorigin="anonymous"></script>
 
 <style>
 
-          .card-style {
-     display: flex;
+     .card-style {
+    display: flex;
   text-align: center;
-  width: 90%;
   margin: 0 auto;
   margin-top: 20px;
-
-     padding: 30px !important; 
+  align-items: center;
+    padding: 20px; 
     box-sizing: border-box;
     border-radius: 15px;
     margin-top: 30px;
 
+    }
+
+    .card-style img{
+  
+      align-items: center;
     }
 
     .row-position{
@@ -45,13 +49,11 @@ crossorigin="anonymous"></script>
 #card-style{
   display: flex;
   text-align: center;
-  width: 90%;
+  align-items: center;
   margin: 0 auto;
   margin-top: 20px;
  
 }}
-
-
 
     @media screen and (max-width:786px){
 
@@ -112,6 +114,13 @@ font-family: system-ui;
     text-align: center;
 }
 
+.card-img-top {
+  border-radius: 10px;
+  align-items: center;
+}
+
+
+
 
 
 </style>
@@ -122,10 +131,10 @@ font-family: system-ui;
 
   <!-- Navigation bar (bootstrap) -->
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg nav-bar">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="media/Screenshot 2022-12-19 at 11.24.29.png" 
+      <img class = "logo-img"src="media/Screenshot 2022-12-19 at 11.24.29.png" 
         alt="logo"  width="150" height="80" > 
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
